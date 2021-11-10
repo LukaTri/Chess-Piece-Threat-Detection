@@ -1,0 +1,2 @@
+What we are going to use is a CNN that will that will take in different boards for each type of piece (P,R,B,N,K,Q), then afterwards, our last output layer will be a 6 node output with a softmax activation function. We use a softmax activation function since we want the likelyhood of each
+piece being attack. For example, the first move, all pieces should have a 0% likelyhood of being attacked (since there is no way of attacking an opponent in the first move of a game).
